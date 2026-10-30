@@ -1,21 +1,15 @@
 #!/bin/bash
 
-# This is Jetha Lal ki Duniya
 
-<< comment
-Anything 
-written 
-here will not be execute
-comment
-
-name="babitaji"
+name="Devutty"
 
 echo "Name is $name, and date is $(date)"
 
-echo "enter the name:"
-
+echo "enter the username"
 read username
 
-echo "You entered $username"
+you entered $username
 
-echo "The characters in $0 are:  $1 $2"
+echo "the character in $0 are $name and $username"
+
+
