@@ -1,7 +1,9 @@
 #!/bin/bash
-# read user input with read -p
+#read user input with -p
 
-read -p "Aapka naam kya hai? " name
-read -p "Aap kahan se ho? " city
 
-echo "Hello $name ji, $city se!"
+read -p "what is your name:" name
+read -p "wher is your city:" city
+
+
+echo "My is $name and i am from $city"
