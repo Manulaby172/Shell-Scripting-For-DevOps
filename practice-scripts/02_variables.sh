@@ -1,10 +1,12 @@
 #!/bin/bash
-# variables, expansion, and command substitution $(...)
+#variables, expansoins and command susbstitution $(........)
 
-name="jethalal"
-shop="gada electronics"
+name="Devutty"
+shop="Manu Electronics"
 
-echo "Naam: $name"
-echo "Dukan: $shop"
-echo "Aaj ki tareekh: $(date)"
-echo "Tum ho: $(whoami)"
+
+echo "My naam is $name"
+echo "dukhan naam: $shop"
+echo "Aahj ki tareek: $(date)"
+
+echo "tumho: $(whoami)"
