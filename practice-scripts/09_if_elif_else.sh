@@ -1,13 +1,16 @@
 #!/bin/bash
+
 # if-elif-else with string and numeric checks
 
-read -p "Tappu ka best dost kaun hai? " dost
-read -p "Tappu ki age kitni hai? " age
+read -p "who is your best friend:" freind
+read -p "And what is his age:" Age
 
-if [[ $dost == "goli" ]]; then
-    echo "Haan, Goli sabse pakka dost hai"
-elif [[ $age -ge 18 ]]; then
-    echo "Tappu ab bada ho gaya"
+
+if [[ $freind == "manu" ]]; then
+  echo "Yes manu is his best freind"
+
+elif [[ $age -ge "18" ]] then
+  echo "manu is older than you"
 else
-    echo "Tappu abhi bachcha hai"
+echo "manuis younger than you"
 fi
