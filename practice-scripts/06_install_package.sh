@@ -1,7 +1,10 @@
 #!/bin/bash
-# install a package passed as argument
+#install a package passed as a argument
+
 
 package=$1
 
-sudo apt-get update && sudo apt-get install -y "$package"
-echo "$package install ho gaya"
+sudo apt update && sudo apt install -y $package
+echo "$package is installed"
+
+

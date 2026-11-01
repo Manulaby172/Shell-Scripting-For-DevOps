@@ -1,10 +1,11 @@
 #!/bin/bash
 # if-else with string comparison
 
-read -p "Jethalal ki favourite kaun hai? " bandi
+read -p "who is my faourite actress" girl
 
-if [[ $bandi == "babita" ]]; then
-    echo "Sahi jawab! Babita ji hi hain."
+
+if [[ $girl == "Jen law" ]]; then
+  echo "Good guess, $girl is my favourite" 
 else
-    echo "Galat jawab budbak."
+  echo "Bad Guess"
 fi
