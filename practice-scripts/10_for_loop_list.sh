@@ -1,13 +1,13 @@
 #!/bin/bash
-# for loop over a list of items
 
-for char in jethalal babita daya popatlal bhide; do
-    echo "Gokuldham society wale: $char"
+#C-Style For Loops
+
+for (( i=1; i<=5; i++ ))
+do
+    echo "Iteration: $i"
 done
 
-echo "---"
-
-# glob pattern: loop over files
-for file in ./*.sh; do
-    echo "Mila script: $file"
+for file in /home/manu/myfiles/*
+do 
+    echo "processing $file" 
 done
