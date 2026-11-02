@@ -19,3 +19,8 @@ fi
 
 #This is function call
 is_loyal "Manu"
+
+
+
+
+
