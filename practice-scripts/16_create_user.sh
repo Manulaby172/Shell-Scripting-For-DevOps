@@ -1,15 +1,16 @@
 #!/bin/bash
-# real workflow: input -> check user exists with `id` -> create with useradd
+
+# real workflow: input -> check user exists with `id` -> create with useradd;
+
 
 create_user() {
-    read -p "Naya username daalo: " username
+    read -p "Give new username:" username
+    if id "$username" >/dev/null; then
+    echo "$username already exists"
+    exit 1
+    fi 
 
-    if id "$username" &>/dev/null; then
-        echo "User '$username' pehle se hai"
-        exit 1
-    fi
-
-    sudo useradd -m "$username" && echo "User '$username' ban gaya" || echo "User nahi bana"
+    sudo useradd -m "$username" 
 }
 
 create_user
