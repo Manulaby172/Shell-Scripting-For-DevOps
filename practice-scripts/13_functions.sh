@@ -1,12 +1,14 @@
 #!/bin/bash
+
 # define a function, then call it
 
-haldi() {
-    echo "haldi lagao"
-    echo "pani me daal do"
-    echo "garam masala daal do"
+
+Recipe() {
+    echo "Take some water"
+    echo "Boil the water and Add tea powder"
+    echo "Add some sugar"
 }
 
-echo "Recipe shuru:"
-haldi
-echo "Recipe khatam"
+echo "How to make Tea"
+Recipe
+echo "Tea is ready"

@@ -1,15 +1,18 @@
 #!/bin/bash
+
 # function with arguments; $1 inside function refers to function's first arg
 
+
 greet() {
-    echo "Namaste $1 ji!"
+    echo "Hello $1 sir"
 }
 
 install_package() {
-    echo "Installing: $1"
-    # sudo apt-get install -y "$1"
+    echo "installing $1"
+    #sudo apt install -y "$1"
 }
 
-greet "jethalal"
-greet "babita"
+greet "Mani"
+greet "Devi"
 install_package "nginx"
+
